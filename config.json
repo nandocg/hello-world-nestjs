@@ -1,0 +1,26 @@
+{
+    "dbconnections": {
+        "mysql_test": {   
+            "name": "mysql_test",
+            "type": "mysql",
+            "host": "localhost",
+            "port": 3306,
+            "username": "root",
+            "password": "",
+            "database": "test_nest",
+            "synchronize": false,
+            "autoLoadEntities": true
+        },
+        "postgres_test": {   
+            "name": "postgres_test",
+            "type": "postgres",
+            "host": "localhost",
+            "port": 5432,
+            "username": "postgres",
+            "password": "",
+            "database": "test_nest",
+            "synchronize": false,
+            "autoLoadEntities": true
+        }
+    }
+}
